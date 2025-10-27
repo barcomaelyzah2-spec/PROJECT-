@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY PORTFOLIO</title>
+
+<style>
+  body {
+    font-family: 'Segoe UI', serif;
+    background: linear-gradient(to bottom right, #040404, #fdfdfd);
+    color: #000000;
+    margin: 0;
+    padding: 30px;
+  }
+
+  header {
+    background-color: #000000;
+    text-align: center;
+    color: #f0f0f0;
+    padding: 20px;
+    width: 100%
+  }
+
+  header h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  nav {
+    background-color: #b3ceff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  
+
+  section {
+    display: none;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fffafa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  section.active {
+    display: block;
+  }
+
+  section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #000000;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  figure {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+
+  figure img, iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  }
+
+  figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 40px;
+  }
+
+  ul li a {
+    color: #660000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 30px;
+    width: 100%
+  }
+</style>
+</head>
+    <body>
+    <header><div><img src="/elyzah/Screenshot_20250714-204447_1.png"alt ="Profile Picture" style="width:120px; height: 120px; border-radius: 50%; object-fit:cover;" >
+</div>
+<p style="text-align:center;">Elyzah Pearl Barcoma</p>
+<h1>MY PORTFOLIO</h1>
+  
+  </header>
+
+<nav>
+    <a onclick="showSection('Home')">🏠Home</a>
+     <a onclick="showSection('About')">👤About</a>
+    <a onclick="showSection('Projects')">💼Projects</a>
+    <a onclick="showSection('Contacts')">📬Contacts</a>
+</nav>
+<!-- Home Section -->
+<section id="Home" class="active">
+    <h1>Welcome to My Profile</h1>
+      <p style="text-align: justify;">
+        Hi! I’m Elyzah, a second-year IT student at CPSU Moises Padilla. I love turning ideas into digital creations. Explore my projects and see how I blend creativity with technology!</p>
+</section>
+
+<!-- About Section -->
+<section id="About" class="active">
+   <h2>About Me</h2> 
+      <p><img src="/elyzah/Screenshot_20250714-204447_1.png" alt="Profile" width="100" height="100" style="vertical-align: middle;"><br>
+      <span style="vertical-align: middle; margin-left: 10px;"><p style="text-align: justify;">
+      I’m a second year Information Technology student at Central Philippine State University-Moises Padilla with experience in Figma, Canva, and Photoshop. I love designing and creating user-friendly digital projects that look clean and creative.</p>
+      <br>
+</section>
+
+<!-- Projects Section -->
+<section id="Projects" class="active">
+  <h2>My Projects</h2>
+    <div style="text-align:center;">
+        <figure>
+            <img src="/picture /Activity  4 (1).png" alt="T-Shirt Layout" width="150" height="150">
+            <figcaption>T-Shirt Layout</figcaption>
+        </figure>    
+        <figure>
+            <img src="/picture /Screenshot_20251027-181954_1.png" alt="Banner" width="200" height="110">
+            <figcaption>Banner</figcaption>
+        </figure>
+
+        <figure>
+            <img src="/picture /Screenshot_20251027-182131_1.png" width="150" height="150">
+            <figcaption>Product Design</figcaption>
+        </figure>
+  </div>
+  <div style="text-align:center;">
+    <figure>
+      <iframe width="150" height="150" src="https://youtu.be/2MCmnr2L50o?si=stA-9_z0ue96sCwK" title="Microsoft Tutorial" allowfullscreen></iframe>
+      <figcaption>Microsoft Tutorial</figcaption>
+    </figure>
+
+    <figure>
+      <iframe width="150" height="150" src="https://youtu.be/ezldKx-jPag?si=vd45glUc5XABRQ8q" title="Figma Tutorial" allowfullscreen></iframe>
+      <figcaption>Figma Tutorial</figcaption>
+    </figure>
+
+    <figure>
+      <iframe width="150" height="150" src="https://youtu.be/jzWxBuvwuwQ?si=04vRaKGL5m3XQcat" title="Canva Tutorial" allowfullscreen></iframe>
+      <figcaption>Canva Tutorial</figcaption>
+    </figure>
+  </div>
+  <li><h2></h2>Outputs</h2></li>
+        <br>
+           <ul>
+            <li><a href="https://www.canva.com/design/DAGuOrSlrYk/iIbQv0dtikl2nOm8zvCVdQ/edit?utm_content=DAGuOrSlrYk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Operating System </a></li>
+            <li><a href="https://www.canva.com/design/DAGvkkupgCw/Xbqb14surP8uVKVB1-yKAw/edit?utm_content=DAGvkkupgCw&utm_campaign=designshare&utm_medium=link2&utm_source>Operating System </a></li>=sharebutton">Common Problems of Operating System</a></li>
+            <li><a href="https://www.figma.com/proto/4ihmVEU5GtmMWhn9MzST95/My-Portfolio?page-id=0%3A1&node-id=16-33&starting-point-node-id=1%3A2&t=7hNTyrqoJfR5y6O7-1">Figma Portfolio</a></li>
+             <li><a href="https://www.figma.com/proto/24Iir7s3JTOxc0ycbqySKN/Food-website?page-id=0%3A1&node-id=12-6&p=f&viewport=1441%2C406%2C0.64&t=KFrvzNWX3ejZMy1K-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=12%3A6">Figma E-Commerce </a></li>
+            </ul>
+</section>
+
+<!-- Contacts Section -->
+<section id="Contacts">
+  <h2>My Contacts</h2>
+  <p>Facebook: <a href="https://www.facebook.com/elyzahpearl.lindongbarcoma?mibextid=ZbWKwL">Elyzah Pearl Lindong Barcoma</a></p>
+  <p>Email: <a href="elyzahpearlbarcoma@gmail.com">elyzahpearl@gmail.com</a></p> <p>Instagram: <a href="https://www.instagram.com/itsmeelyzah_pearll?igsh=MWVjdnd3dXpmM3Q4ZA==">itsmeelyzah_pearll</a></p>
+  <p>Phone: +639928545507</p>
+
+     <h2>Send Us Your Feedback</h2>
+  <form action="#" method="post">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Your Feedback:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+ 
+
+<script>
+  // JavaScript to toggle sections
+  function showSection(sectionId) {
+    // Hide all sections
+    const sections = document.querySelectorAll('section');
+    sections.forEach(sec => sec.classList.remove('active'));
+    
+    // Show selected section
+    document.getElementById(sectionId).classList.add('active');
+    
+    // Scroll to top of page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+ <footer>
+  © 2025 Elyzah Pearl|Designed with creativity and purpose.
+</footer>
+</body>
+</html>
